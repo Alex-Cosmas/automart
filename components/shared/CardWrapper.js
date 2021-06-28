@@ -1,12 +1,23 @@
 import { BsBookmarkPlus, BsCheckCircle } from 'react-icons/bs'
+import Image from 'next/image'
+const CardImg = {
+  img: 'https://autotraderau-res.cloudinary.com/t_listing_grid_c/inventory/2021-06-25/97749646164261/11941888/2018_mitsubishi_pajero_sport_Used_1.jpg',
+}
 
 const CardWrapper = () => {
   return (
     <>
       <div className='mt-5 cardWrapper '>
         <div className='bg-white shadow-lg '>
-          <div className='overflow-hidden imageWrapper rounded-tr-md rounded-tl-md'>
-            <img src='https://autotraderau-res.cloudinary.com/t_listing_grid_c/inventory/2021-06-25/97749646164261/11941888/2018_mitsubishi_pajero_sport_Used_1.jpg' />
+          <div className='overflow-hidden imageWrapper rounded-tr-md rounded-tl-md unset-img'>
+            {/* <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} /> */}
+            <Image
+              // src={CardImg.img}
+              src='/cars/2018_mitsubishi_pajero_sport_Used_1.jpg'
+              alt=''
+              layout='fill'
+              className='custom-img'
+            />
           </div>
           {/* Car Summary  */}
           <div className='p-4 '>

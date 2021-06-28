@@ -1,6 +1,7 @@
 module.exports = {
   images: {
-    domains: [''],
+    // domains: ['https://autotraderau-res.cloudinary.com'],
+    domains: ['assets.example.com'],
   },
   future: {
     webpack5: false,
