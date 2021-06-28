@@ -14,7 +14,7 @@ const CardWrapper = () => {
             <Image
               // src={CardImg.img}
               src='/cars/2018_mitsubishi_pajero_sport_Used_1.jpg'
-              alt=''
+              alt='Loo'
               layout='fill'
               className='custom-img'
             />
