@@ -24,13 +24,13 @@ export default function Home() {
         <div className='container px-24 mx-auto'>
           <div className='flex flex-col mainListingContainer'>
             <div className='py-4 text-sm'>
-              Used Automotive Vehicles for Sale > Quick Sale > Nairobi
+              {` Used Automotive Vehicles for Sale > Quick Sale > Nairobi`}
             </div>
 
             <div className='resultsWrapper'>
               <h3>
-                31 Ads for <strong>"Quick Sale"</strong> in
-                <strong>"Nairobi"</strong>
+                31 Ads for <strong> {` "Quick Sale"`}</strong> in
+                <strong>{` "Nairobi"`}</strong>
               </h3>
             </div>
 

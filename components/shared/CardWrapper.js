@@ -6,10 +6,7 @@ const CardWrapper = () => {
       <div className='mt-5 cardWrapper '>
         <div className='bg-white shadow-lg '>
           <div className='overflow-hidden imageWrapper rounded-tr-md rounded-tl-md'>
-            <img
-              src='https://autotraderau-res.cloudinary.com/t_listing_grid_c/inventory/2021-06-25/97749646164261/11941888/2018_mitsubishi_pajero_sport_Used_1.jpg'
-              alt=''
-            />
+            <img src='https://autotraderau-res.cloudinary.com/t_listing_grid_c/inventory/2021-06-25/97749646164261/11941888/2018_mitsubishi_pajero_sport_Used_1.jpg' />
           </div>
           {/* Car Summary  */}
           <div className='p-4 '>
